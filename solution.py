@@ -9,4 +9,5 @@ def solution(x: np.array) -> float:
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
     t = 4
-    return np.exp(- np.sqrt( x.mean() / t)) # Ваш ответ
+    A = np.mean(x) / t
+    return A # Ваш ответ
